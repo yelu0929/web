@@ -1,0 +1,116 @@
+.newsCenter {
+  .content {
+    width: 100%;
+    .list {
+      width: 100%;
+      margin: 20px 0;
+      display: flex;
+      cursor: pointer;
+      &:hover {
+        color: #1089FF;
+      }
+      &:first-child {
+        margin-top: 0;
+      }
+      img {
+        width: 285px;
+        border-radius: 2px;
+      }
+      .right{
+        // width: calc(100% - 285px);
+        width: 100%;
+        padding: 30px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #d0d0d0;
+        .rightContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          .describe {
+            margin: 10px 40px 10px 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+  .newsCenter_pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.newsCenterDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #333;
+  table {
+    border: 1px solid #f0f0f0;
+    width: 100%;
+    tr>th,
+    tr>td {
+      padding: 10px 12px;
+      border-right: 1px solid #f0f0f0;
+    }
+    tr {
+      border-bottom: 1px solid #f0f0f0;
+    }
+  }
+  .left {
+    width: calc(100% - 350px);
+    color: #666;
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #000;
+    }
+    .time {
+      margin-top: 16px;
+    }
+    .describe {
+      padding-top: 26px;
+    }
+    .content {
+      line-height: 26px;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .right {
+    width: 300px;
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    .list {
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+      padding: 30px 16px;
+      font-size: 16px;
+      background-color: #fff;
+      &:first-child {
+        border-bottom: 1px solid #d0d0d0;
+      }
+      .title {
+        // display: inline-block;
+        cursor: pointer;
+        &:hover {
+          color: #1089FF;
+        }
+      }
+    }
+  }
+}
