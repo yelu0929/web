@@ -1,24 +1,4 @@
 ### `ESLINT替换TSLINT`
-```
-http://gitlab.microseer.com/viphrm/viphrm-home/blob/master/config-overrides.js
-不要贸然更新ESLINT版本，否则可能报错
-```
-
-### `Jenkins地址`
-```
-dev,目前未用
-http://192.168.2.245:8083/job/dev-moss-document-managerment-web/
-
-pre
-http://192.168.2.129:8080/job/pre-new-tax-manager-web/
-```
-
-### `showdoc地址`
-```
-http://192.168.1.243/showdoc/web/#/151?page_id=6214
-```
-
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
